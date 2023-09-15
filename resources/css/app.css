@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .separation-bcolor{
+        @apply mt-4 border-b-4 border-bcolor py-2;
+    }
+
+    .separation-experience{
+        @apply flex justify-between items-center border-b-2 border-secondary border-dashed pb-2;
+    }
+
+    .span-title{
+        @apply p-2 bg-secondary text-white inline-block -skew-x-12;
+    }
+}
