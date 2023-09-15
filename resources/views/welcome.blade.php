@@ -20,7 +20,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/" class="flex separation-bcolor justify-center items-center text-secondary dark:text-white font-bold">
+                        <a href="/posts/documentacion" class="flex separation-bcolor justify-center items-center text-secondary dark:text-white font-bold">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 font-bold">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
                             </svg>
@@ -28,7 +28,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/" class="flex separation-bcolor justify-center items-center text-secondary dark:text-white font-bold">
+                        <a href="/posts/documentacion" class="flex separation-bcolor justify-center items-center text-secondary dark:text-white font-bold">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 font-bold">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
                             </svg>                              
@@ -41,7 +41,9 @@
     </aside>
     <nav class="bg-panelb py-1 shadow-2xl border-b-2 border-third dark:bg-panelb-dark hidden lg:block">
         <div class="container flex justify-between items-center">
-            <img src="../resources/img/logo.png" class="w-14 grow-0">
+            <a href="/">
+                <img src=" {{asset('../resources/img/logo.png')}}" class="w-14 grow-0">
+            </a>
             <ul class="flex gap-2 text-secondary dark:text-white">
                 <li class=" py-1 border-b-2 border-transparent hover:border-bcolor">
                     <a href="/" class="flex justify-center items-center font-bold">
@@ -52,7 +54,7 @@
                     </a>
                 </li>
                 <li class="py-1 border-b-2 border-transparent hover:border-bcolor"">
-                    <a href="/" class="flex justify-center items-center font-bold">
+                    <a href="/posts/documentacion" class="flex justify-center items-center font-bold">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
                         </svg>
@@ -60,7 +62,7 @@
                     </a>
                 </li>
                 <li class="py-1 border-b-2 border-transparent hover:border-bcolor"">
-                    <a href="/" class="flex justify-center items-center font-bold">
+                    <a href="/posts/portafolio" class="flex justify-center items-center font-bold">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
                         </svg>                              
@@ -79,7 +81,7 @@
             </div>        
         </div>
         <section class="flex flex-col items-center lg:flex-row lg:gap-2 lg:basis-full separation-bcolor" id="profile">
-            <img src="../resources/img/myPhoto.jpg" class="w-40 h-40 rounded-full border-4 border-bcolor">
+            <img src="{{asset('../resources/img/myPhoto.jpg')}} " class="w-40 h-40 rounded-full border-4 border-bcolor">
             <h1 class="text-2xl font-bold">Joaquín Paúl Flores Moreira</h1>
             <div class="flex gap-x-4 items-center grow justify-end">
                 <button id="ButtonLigth">
@@ -128,7 +130,7 @@
                         <span>+593998001121</span>
                     </a>
                     <a href="https://www.linkedin.com/in/joaquín-paúl-flores-moreira-885b85163" target="_blank" class="flex items-center lg:justify-center lg:basis-full">
-                        <img src="../resources/img/linkedin.png" class="w-6 h-6 rounded-full">
+                        <img src="{{asset('../resources/img/linkedin.png')}} " class="w-6 h-6 rounded-full">
                         <span>Linkedin</span>
                     </a>
                 </div>
@@ -179,9 +181,8 @@
                 <div class="separation-experience">
                     <p>Tecnologías: </p>
                     <div class="flex">
-                        <img src="../resources/img/c-sharp-c.svg" class="w-6 h-6"/>
-                        <img src="../resources/img/angular.png" class="w-6 h-6"/>
-                        
+                        <img src="{{ asset('../resources/img/c-sharp-c.svg') }} " class="w-6 h-6"/>
+                        <img src=" {{ asset('../resources/img/angular.png') }}" class="w-6 h-6"/>
                     </div>
                 </div>
             </div>     
@@ -198,7 +199,7 @@
                 <div class="separation-experience">
                     <p>Tecnologías: </p>
                     <div class="flex">
-                        <img src="../resources/img/c-sharp-c.svg" class="w-6 h-6"/>
+                        <img src="{{ asset('../resources/img/c-sharp-c.svg') }} " class="w-6 h-6"/>
                     </div>
                 </div>
             </div>
@@ -217,9 +218,9 @@
                 <div class="separation-experience border-b-0 pb-0">
                     <p>Tecnologías: </p>
                     <div class="flex">
-                        <img src="../resources/img/c-sharp-c.svg" class="w-6 h-6"/>
-                        <img src="../resources/img/angular.png" class="w-6 h-6"/>
-                        <img src="../resources/img/python.png" class="w-6 h-6"/>
+                        <img src="{{ asset('../resources/img/c-sharp-c.svg') }} " class="w-6 h-6"/>
+                        <img src=" {{ asset('../resources/img/angular.png') }}" class="w-6 h-6"/>
+                        <img src="{{ asset('../resources/img/python.png') }}" class="w-6 h-6"/>
                     </div>
                 </div>
             </div>
@@ -243,7 +244,7 @@
             <div class="mt-2 lg:flex lg:h-full lg:content-center">
                 <ul class="flex justify-between gap-y-1 flex-wrap text-sm">
                     <li class="flex gap-2 basis-1/2">
-                        <img src="../resources/img/IrisUzcategui.jpg" class="w-6 h-6 rounded-full border-1 border-bcolor"/>
+                        <img src="{{ asset('../resources/img/IrisUzcategui.jpg') }} " class="w-6 h-6 rounded-full border-1 border-bcolor"/>
                         <p>Iris Uzcategui(Tech Lead Edenred)</p>
                     </li>
                     <li>
@@ -252,7 +253,7 @@
                         </a>
                     </li>
                     <li class="flex gap-2 basis-1/2">
-                        <img src="../resources/img/CarlosNovoa.jpg" class="w-6 h-6 rounded-full border-1 border-bcolor"/>
+                        <img src="{{ asset('../resources/img/CarlosNovoa.jpg') }} " class="w-6 h-6 rounded-full border-1 border-bcolor"/>
                         <p>Carlos Novoa(Tech Lead FrontEnd Produbanco)</p>
                     </li>
                     <li>
@@ -261,7 +262,7 @@
                         </a>
                     </li>
                     <li class="flex gap-2 basis-1/2">
-                        <img src="../resources/img/HugoMazzini.jpg" class="w-6 h-6 rounded-full border-1 border-bcolor"/>
+                        <img src="{{ asset('../resources/img/HugoMazzini.jpg') }} " class="w-6 h-6 rounded-full border-1 border-bcolor"/>
                         <p>Hugo Mazzini(Jefe de IT CashManagement)</p>
                     </li>
                     <li>

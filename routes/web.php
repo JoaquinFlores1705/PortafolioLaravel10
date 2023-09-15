@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BriefcaseController;
+use App\Http\Controllers\PostsController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,6 +17,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [BriefcaseController::class, "show"]);
+
+Route::controller(PostsController::class)->group(function () {
+    Route::get('/posts/{option}', "index");
+});
 
 
 Route::get('/dashboard', function () {
