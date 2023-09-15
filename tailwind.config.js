@@ -29,6 +29,8 @@ export default {
                 'bcolor': '#B233FF',
                 'panel': '#f9fafe',
                 'panel-dark': '#080c2d',
+                'panelb': '#FEFDF9',
+                'panelb-dark': '#080c2d',
               }
         },
     },

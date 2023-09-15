@@ -12,7 +12,7 @@
                 </div>
                 <ul class="mt-20 basis-full">
                     <li>
-                        <a href="/" class="flex separation-bcolor justify-center items-center text-secondary font-bold">
+                        <a href="/" class="flex separation-bcolor justify-center items-center text-secondary dark:text-white font-bold">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 font-bold">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                             </svg>
@@ -20,7 +20,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/" class="flex separation-bcolor justify-center items-center text-secondary font-bold">
+                        <a href="/" class="flex separation-bcolor justify-center items-center text-secondary dark:text-white font-bold">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 font-bold">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
                             </svg>
@@ -28,7 +28,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/" class="flex separation-bcolor justify-center items-center text-secondary font-bold">
+                        <a href="/" class="flex separation-bcolor justify-center items-center text-secondary dark:text-white font-bold">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 font-bold">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
                             </svg>                              
@@ -39,15 +39,46 @@
             </div>
         </div>
     </aside>
+    <nav class="bg-panelb py-1 shadow-2xl border-b-2 border-third dark:bg-panelb-dark hidden lg:block">
+        <div class="container flex justify-between items-center">
+            <img src="../resources/img/logo.png" class="w-14 grow-0">
+            <ul class="flex gap-2 text-secondary dark:text-white">
+                <li class=" py-1 border-b-2 border-transparent hover:border-bcolor">
+                    <a href="/" class="flex justify-center items-center font-bold">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                        </svg>
+                        <p class="uppercase">Inicio</p>
+                    </a>
+                </li>
+                <li class="py-1 border-b-2 border-transparent hover:border-bcolor"">
+                    <a href="/" class="flex justify-center items-center font-bold">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                        </svg>
+                        <p class="uppercase">Documentación</p>
+                    </a>
+                </li>
+                <li class="py-1 border-b-2 border-transparent hover:border-bcolor"">
+                    <a href="/" class="flex justify-center items-center font-bold">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 font-bold">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+                        </svg>                              
+                        <p class="uppercase">Portafolio</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <article class=" container flex flex-col lg:flex-row lg:justify-between lg:flex-wrap bg-panel dark:bg-panel-dark dark:text-white">
-        <div class="flex justify-end lg:basis-full">
-            <div id = "open-mobile-button" class="lg:hidden cursor-pointer">
+        <div class="flex justify-end lg:basis-full lg:hidden">
+            <div id = "open-mobile-button" class="cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-bcolor font-bold">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg> 
             </div>        
         </div>
-        <section class="flex flex-col items-center lg:flex-row lg:items-start lg:items-center lg:gap-2 lg:basis-full separation-bcolor" id="profile">
+        <section class="flex flex-col items-center lg:flex-row lg:gap-2 lg:basis-full separation-bcolor" id="profile">
             <img src="../resources/img/myPhoto.jpg" class="w-40 h-40 rounded-full border-4 border-bcolor">
             <h1 class="text-2xl font-bold">Joaquín Paúl Flores Moreira</h1>
             <div class="flex gap-x-4 items-center grow justify-end">
