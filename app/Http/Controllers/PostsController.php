@@ -12,7 +12,7 @@ class PostsController extends Controller
     public function index(string $option)
     {
         return view('posts.show')->with([
-            'title' => strtoupper($option)
+            'title' => ucfirst($option)
         ]);
     }
 
