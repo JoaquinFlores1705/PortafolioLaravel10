@@ -9,7 +9,7 @@
         <title>{{ !isset($title) ? '' : $title . ' - ' }}{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Icon -->
-        <link rel="icon" type="image/x-icon" href="{{ asset('../resources/img/logo.ico') }}">
+        <link rel="icon" type="image/x-icon" href="{{ Vite::asset('resources/img/logo.ico') }}">
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />

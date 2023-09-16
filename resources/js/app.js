@@ -2,6 +2,10 @@ import './bootstrap';
 
 import Alpine from 'alpinejs';
 
+import.meta.glob([
+    '../img/**'
+  ]);
+
 window.Alpine = Alpine;
 
 Alpine.start();
@@ -26,7 +30,7 @@ window.addEventListener('load', () =>{
     });
 
     if(theme == null){
-        localStorage.setItem("theme","ligth");
+        localStorage.setItem("theme","dark");
     }
 
     applyTheme();
